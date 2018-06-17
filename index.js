@@ -4,7 +4,19 @@ let transaction = require('./transaction');
 
 let blockChain = [];
 
-let genesisBlock = block.constructBlock(null, [ transaction.create('A Tree', 'Tjaard', 100) ])
+let userTree = {
+   name: 'The Money Tree',
+   publicKey: '100', // This will be your address
+   privatekey: '1001',
+};
+
+let userTjaard = {
+   name: 'Tjaard',
+   publicKey: '200', // This will be your address
+   privatekey: '2002',
+};
+
+let genesisBlock = block.constructBlock(null, [ transaction.create(userTree.publicKey, userTree.publicKey, 100, userTree.privatekey) ])
 
 blockChain.push(miner.mine(genesisBlock));
 
