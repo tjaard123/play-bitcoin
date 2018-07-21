@@ -5,7 +5,7 @@ Building Bitcoin from scratch for fun
 ## Resources
 
 * [Bitcoin whitepaper](https://bitcoincore.org/bitcoin.pdf)
-* [Core concepts](core-concepts.md)
+* [Core cryptography concepts](https://github.com/tjaard123/play-cryptography)
 * [JS Bitcoin Node](https://github.com/bcoin-org/bcoin)
 * [Whitepaper Explained](https://steemit.com/bitcoin/@dr-physics/bitcoin-white-paper-explained-bitcoin-made-easy)
 
