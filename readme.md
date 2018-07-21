@@ -6,6 +6,8 @@ Building Bitcoin from scratch for fun
 
 * [Bitcoin whitepaper](https://bitcoincore.org/bitcoin.pdf)
 * [Core concepts](~/core-concepts.md)
+* [JS Bitcoin Node](https://github.com/bcoin-org/bcoin)
+* [Whitepaper Explained](https://steemit.com/bitcoin/@dr-physics/bitcoin-white-paper-explained-bitcoin-made-easy)
 
 ## Example Block
 
